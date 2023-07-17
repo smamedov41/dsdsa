@@ -1,0 +1,50 @@
+/***********************************************************************************
+ * CirceRounded
+ */
+@font-face {
+  font-family: CirceRounded;
+  src: url("../fonts/CirceRounded/CirceRounded-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: CirceRounded;
+  font-weight: 200;
+  src: url("../fonts/CirceRounded/CirceRounded-Light.otf") format("opentype");
+}
+@font-face {
+  font-family: CirceRounded;
+  font-weight: bold;
+  src: url("../fonts/CirceRounded/CirceRounded-Bold.otf") format("opentype");
+}
+
+/***********************************************************************************
+ * Arch
+ */
+@font-face {
+  font-family: Arch;
+  src: url("../fonts/Arch/Arch-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: Arch;
+  font-weight: bold;
+  src: url("../fonts/Arch/Arch-Bold.otf") format("opentype");
+}
+
+/***********************************************************************************
+ * Averta
+ */
+@font-face {
+  font-family: Averta;
+  src: url("../fonts/Averta/Intelligent-Design-AvertaPE-Regular.otf");
+  font-weight: 600;
+}
+@font-face {
+  font-family: Averta;
+  src: url("../fonts/Averta/Intelligent-Design-AvertaPE-Bold.otf");
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: Averta;
+  src: url("../fonts/Averta/Intelligent-Design-AvertaPE-Light.otf");
+  font-weight: 200;
+}

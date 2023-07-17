@@ -1,0 +1,37 @@
+/*
+ * LOGIN PAGE
+ */
+.login-body {
+  margin: 0; }
+
+.login {
+  background: url("../img/login-register.jpg") no-repeat center center/cover !important;
+  height: 100%;
+  position: fixed;
+  width: 100%; }
+  .login .login-panel {
+    height: 100%;
+    background: #ffffff;
+    position: absolute;
+    right: 0px;
+    width: 342px;
+    padding: 40px 20px; }
+    .login .login-panel .panel-heading {
+      padding: 0 0 10px; }
+    .login .login-panel h2 {
+      font-weight: bold;
+      padding-bottom: 15px;
+      font-size: 18px; }
+    .login .login-panel h3 {
+      font-weight: bold;
+      padding-bottom: 5px; }
+  .login footer {
+    display: none; }
+  @media screen and (min-height: 500px) {
+    .login footer {
+      display: block;
+      position: absolute;
+      bottom: 20px;
+      left: 20px; } }
+
+/*# sourceMappingURL=login.css.map */

@@ -1,0 +1,6 @@
+#dataTables_wrapper {
+  padding: 10px 0;
+}
+#dataTables_wrapper th {
+  text-align: center;
+}

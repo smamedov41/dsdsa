@@ -1,0 +1,69 @@
+ul.role-list {
+  width: 100%;
+  border-top: 1px dotted #ddd;
+  margin-top: 5px;
+  padding-top: 5px; }
+  ul.role-list li {
+    width: 25%;
+    float: left; }
+
+@media only screen and (max-width: 1300px) {
+  ul.role-list li {
+    width: 30%;
+    width: 30%;
+    float: left; } }
+@media only screen and (max-width: 1200px) {
+  ul.role-list li {
+    width: 50%;
+    float: left; } }
+@media only screen and (max-width: 1100px) {
+  ul.role-list li {
+    width: 100%;
+    float: left; } }
+.admin-role {
+  overflow-x: auto; }
+  .admin-role .checkbox-inline {
+    margin-bottom: 10px;
+    float: left;
+    width: 25%;
+    margin-left: 0; }
+    .admin-role .checkbox-inline label {
+      position: relative;
+      top: 2px;
+      font-weight: 500; }
+
+.admin-table {
+  margin-top: 20px;
+  width: 740px; }
+  .admin-table td .admin_role_div {
+    margin-right: 50px; }
+  .admin-table td .admin_role_label {
+    font-weight: normal; }
+  .admin-table td input[type="checkbox"] {
+    border: 1px solid #000;
+    position: relative;
+    top: 3px;
+    margin-left: 5px; }
+  .admin-table th {
+    width: 200px; }
+
+@media only screen and (max-width: 1300px) {
+  .admin-role .checkbox-inline {
+    width: 30%; } }
+@media only screen and (max-width: 1200px) {
+  .admin-role .checkbox-inline {
+    width: 50%; } }
+@media only screen and (max-width: 500px) {
+  .admin-role .checkbox-inline {
+    width: 100%; }
+
+  .admin_role_div {
+    width: 100%; }
+
+  .admin_role_label {
+    font-size: 12px; }
+
+  .admin-table th {
+    width: auto; } }
+
+/*# sourceMappingURL=admin.css.map */
